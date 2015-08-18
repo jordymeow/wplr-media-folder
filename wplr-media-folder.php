@@ -12,6 +12,7 @@ class WPLR_Extension_MediaFolder {
   public function __construct() {
 
     // Init
+    add_action( 'init', array( $this, 'init' ), 10, 0 );
     add_filter( 'wplr_extensions', array( $this, 'extensions' ), 10, 1 );
 
     // Create / Update
@@ -30,6 +31,13 @@ class WPLR_Extension_MediaFolder {
     //add_action( 'wplr_reset', array( $this, 'reset' ), 10, 0 );
     //add_action( "wplr_clean", array( $this, 'clean' ), 10, 1 );
     //add_action( "wplr_remove_media", array( $this, 'remove_media' ), 10, 1 );
+  }
+
+  function init( ) {
+    // Create the taxonomy if Media Folder doesn't create it (basically it doesn't create it if we are not in the admin)
+    if ( !taxonomy_exists( 'wpmf-category' ) ) {
+      register_taxonomy( 'wpmf-category', 'attachment', array( 'hierarchical' => true, 'show_in_nav_menus' => false, 'show_ui' => false ) );
+    }
   }
 
   function extensions( $extensions ) {
