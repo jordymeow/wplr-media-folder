@@ -12,7 +12,7 @@ WP Media Folder will be synchronized with Lightroom. This magic requires also th
 
 WP Media Folder will be synchronized with Lightroom (your photos, collections, and collection sets). This magic requires also the WP/LR Sync plugin to be installed.
 
-For support, please contact Meow Apps and WP Media Folder since it is a collaborative plugin. You are also welcome to participate in making this plugin better. There is a public GitHub repository for it available at https://github.com/jordymeow/wplr-cosmothemes. Please feel free to contribute :)
+For support, please contact Meow Apps and WP Media Folder since it is a collaborative plugin. You are also welcome to participate in making this plugin better. There is a public GitHub repository for it available at https://github.com/jordymeow/wplr-media-folder. Please feel free to contribute :)
 
 Languages: English.
 
