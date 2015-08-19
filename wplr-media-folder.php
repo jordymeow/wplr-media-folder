@@ -2,7 +2,7 @@
 /*
 Plugin Name: WP Media Folder for Lightroom
 Description: WP Media Folder Extension for Lightroom through the WP/LR Sync plugin.
-Version: 0.1.0
+Version: 0.1.2
 Author: Jordy Meow
 Author URI: http://www.meow.fr
 */

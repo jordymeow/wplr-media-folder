@@ -33,6 +33,9 @@ Official FAQ is here: http://apps.meow.fr/wplr-sync/faq.
 
 == Changelog ==
 
+= 0.1.2 =
+* Fix: Wasn't working if the user is not in the WP admin.
+
 = 0.1.0 =
 * First release.
 
